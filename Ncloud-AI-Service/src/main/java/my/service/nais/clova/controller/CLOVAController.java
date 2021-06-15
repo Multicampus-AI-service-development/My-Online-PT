@@ -1,5 +1,9 @@
 package my.service.nais.clova.controller;
 
-public interface CLOVAController {
+import java.util.Locale;
 
+import org.springframework.ui.Model;
+
+public interface CLOVAController {
+	public String CLOVAChatbot(Locale locale, Model model);
 }

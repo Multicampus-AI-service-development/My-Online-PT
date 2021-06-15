@@ -16,5 +16,8 @@
 
 <form action="./api/translate" method="get"><input type="submit" value="번역하러 가기"></form>
 <form action="./api/csr" method="get"><input type="submit" value="STT 하러 가기"></form>
+<form action="./record" method="get"><input type="submit" value="그 전에 녹음하러 가기"></form>
+<form action="./api/ocr" method="get"><input type="submit" value="OCR 하러 가기"></form>
+<form action="./api/voice" method="get"><input type="submit" value="TTS 하러 가기"></form>
 </body>
 </html>
