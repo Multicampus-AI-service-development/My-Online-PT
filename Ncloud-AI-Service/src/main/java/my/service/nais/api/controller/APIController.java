@@ -10,6 +10,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface APIController {
+	public String CLOVAVoice(Locale locale, Model model);
+	public String TTS(@RequestParam("uploadFile") MultipartFile file,
+			@RequestParam("language") String language);
+	
+	public String CLOVAOCR(Locale locale, Model model);
+	public String clovaOCR(@RequestParam("uploadFile") MultipartFile file);
+	
 	public String CLOVASpeechRecognition(Locale locale, Model model);
 	public String stt(@RequestParam("uploadFile") MultipartFile file,
 			@RequestParam("language") String language);
