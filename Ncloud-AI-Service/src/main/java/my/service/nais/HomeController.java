@@ -42,8 +42,11 @@ public class HomeController {
 		return "voiceRecord";
 	}
 	
-	//ai활용 서비스
-	//기본 웹페이지 구성
+	//ai활용 서비스 STT, TTS, 추천 루틴
+	
+	//기본 웹페이지 구성 로그인, 마이페이지, 회원가입, 커스텀 루틴
+ 	
 	//기록 포스팅
 	
+
 }
