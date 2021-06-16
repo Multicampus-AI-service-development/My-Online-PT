@@ -42,4 +42,8 @@ public class HomeController {
 		return "voiceRecord";
 	}
 	
+	//ai활용 서비스
+	//기본 웹페이지 구성
+	//기록 포스팅
+	
 }
